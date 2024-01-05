@@ -166,3 +166,40 @@
 # second = int(dublicate // pow(10,length - 2) % 10)
 # print(second)
 
+# 1603
+# number = int(input())
+# if number < 0:
+#     number *= -1
+
+# digits_sum = 0
+
+# while number > 0:
+#     digit = int(number % 10)
+#     digits_sum += digit
+
+#     number = int(number // 10)
+
+# print(digits_sum)
+
+# 1604
+# num = int(input())
+
+# if num < 0:
+#     num *= -1
+# product = 1
+
+# if num == 0:
+#     product = 0
+
+# while num > 0:
+#     a = int(num % 10)
+#     if a % 2 == 0:
+#         product *= a
+
+
+#     num = int(num / 10)
+
+# if product == 1:
+#     print(-1)
+# else:
+#     print(product) 
